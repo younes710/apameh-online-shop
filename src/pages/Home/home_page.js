@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import { getAppName, getAppDesc } from "../../utils";
 import "../../assets/styles/pages/home.page.scss";
-import { PageContainer } from "../../layouts/pageContainer/pageContainer.layout"
+import { PageContainer } from "../../layouts/pageContainer/pageContainer.layout";
 
 const Home = () => {
 
@@ -16,7 +16,7 @@ const Home = () => {
                 <meta name="description" content={webDesc} />
             </Helmet>
             <PageContainer>
-                <div>Home Page</div>
+                <div className="page-container">Home Page</div>
             </PageContainer>
         </>
     )

@@ -1,0 +1,15 @@
+.search {
+    width: 200%;
+    height: 4vh;
+    border-radius: 2%;
+}
+
+.search-icon {
+    background-image: url("../../../images/icons8-search.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+.search::placeholder {
+    padding-right: 12%;
+}

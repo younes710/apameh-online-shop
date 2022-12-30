@@ -6,7 +6,7 @@ function App() {
   console.log(getAppName());
 
   return (
-    <Suspense fallback={<p>در حال بارگذاری ...</p>}>
+    <Suspense fallback={<p className="text-center" dir="rtl">در حال بارگذاری ...</p>}>
       <WebAppRouting />
     </Suspense>
   );

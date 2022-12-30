@@ -1,1 +1,29 @@
-.header {}
+.header {
+    background-color: #E2A300;
+    height: 8vh;
+    display: flex;
+    gap: 32%;
+    align-items: center;
+}
+
+.shop-name {
+    font-size: 180%;
+    white-space: nowrap;
+    padding-right: 10%;
+}
+
+.panel-link,
+.checkout-link {
+    font-size: 130%;
+}
+
+.shopping-name-search {
+    width: 50%;
+    display: flex;
+    gap: 7%;
+}
+
+.checkout-div {
+    margin-right: 45%;
+    white-space: nowrap;
+}
