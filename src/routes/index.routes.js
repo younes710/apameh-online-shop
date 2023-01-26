@@ -8,6 +8,10 @@ const LazyBasketPage = React.lazy(() => import("../pages/Basket/basket.page"));
 const LazyCheckoutPage = React.lazy(() => import("../pages/Checkout/checkout.page"));
 const LazyNotFoundPage = React.lazy(() => import("../pages/NotFound/not-found.page"));
 const LazyPanelPage = React.lazy(() => import("../pages/Panel/panel.page"));
+const LazyPanelLoginPage = React.lazy(() => import("../pages/Panel/panel.login"));
+const LazyPanelProductsPage = React.lazy(() => import("../pages/Panel/panel.products"));
+const LazyPanelInventoryPage = React.lazy(() => import("../pages/Panel/panel.inventory"));
+const LazyPanelOrderPage = React.lazy(() => import("../pages/Panel/panel.order"));
 const LazyPaymentPage = React.lazy(() => import("../pages/Payment/payment.page"));
 const LazyProductPage = React.lazy(() => import("../pages/Product/product.page"));
 const LazyProductsPage = React.lazy(() => import("../pages/Products/products.page"));
@@ -21,7 +25,12 @@ export const WebAppRouting = () => {
                     <Route path={INTERNAL_PATHS.BASKET} element={<LazyBasketPage />} />
                     <Route path={INTERNAL_PATHS.CHECKOUT} element={<LazyCheckoutPage />} />
                     <Route path={INTERNAL_PATHS.PAGE404} element={<LazyNotFoundPage />} />
-                    <Route path={INTERNAL_PATHS.PANEL} element={<LazyPanelPage />} />
+                    <Route path={INTERNAL_PATHS.PANEL} element={<LazyPanelPage />}>
+                        <Route index element={<LazyPanelLoginPage />} />
+                        <Route path={INTERNAL_PATHS.PANELPRODUCTS} element={<LazyPanelProductsPage />} />
+                        <Route path={INTERNAL_PATHS.PANELINVENTORY} element={<LazyPanelInventoryPage />} />
+                        <Route path={INTERNAL_PATHS.PANELORDER} element={<LazyPanelOrderPage />} />
+                    </Route>
                     <Route path={INTERNAL_PATHS.PAYMENT} element={<LazyPaymentPage />} />
                     <Route path={INTERNAL_PATHS.PRODUCT} element={<LazyProductPage />} />
                     <Route path={INTERNAL_PATHS.PRODUCTS} element={<LazyProductsPage />} />

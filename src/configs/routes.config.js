@@ -4,6 +4,9 @@ export const INTERNAL_PATHS = {
     BASKET: "/basket",
     CHECKOUT: "/checkout",
     PANEL: "/panel",
+    PANELPRODUCTS: "/panel/products",
+    PANELORDER: "/panel/order",
+    PANELINVENTORY: "/panel/inventory",
     PAYMENT: "/payment",
     PRODUCT: "/product",
     PRODUCTS: "/products"
