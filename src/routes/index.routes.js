@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { PublicRoutes } from "./public.routes";
 import { INTERNAL_PATHS } from "../configs/routes.config";
+import PanelLogin from "../pages/Panel/panel.login";
 
 const LazyHomePage = React.lazy(() => import("../pages/Home/home_page"));
 const LazyBasketPage = React.lazy(() => import("../pages/Basket/basket.page"));

@@ -1,0 +1,30 @@
+.login-parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 3% 5%;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.page-color {
+    background-color: #E2A300;
+}
+
+.login-btn {
+    width: 40%;
+    margin-right: 30%;
+    padding: 4%;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
