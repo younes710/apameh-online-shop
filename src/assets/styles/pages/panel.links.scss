@@ -1,0 +1,30 @@
+.links {
+    margin-top: 2%;
+    margin-left: 28%;
+    padding: 1%;
+    font-size: 140%;
+    font-weight: bold;
+    width: 45%;
+}
+
+.inventory-btn,
+.prod-btn,
+.order-btn {
+    border: 2px solid black;
+    padding: 2% 9%;
+}
+
+.prod-btn {
+    background-color: #E2A300;
+    border-radius: 0 30px 30px 0;
+    border-color: inherit;
+}
+
+.order-btn {
+    border-radius: 30px 0 0 30px;
+}
+
+.inventory-btn {
+    border-left: 0;
+    border-right: 0;
+}

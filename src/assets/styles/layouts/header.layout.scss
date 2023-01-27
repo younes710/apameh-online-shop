@@ -12,18 +12,32 @@
     padding-right: 10%;
 }
 
+.panel-name {
+    font-size: 180%;
+    white-space: nowrap;
+    padding-right: 20%;
+    word-spacing: 10px;
+}
+
 .panel-link,
-.checkout-link {
+.checkout-link,
+.home-link {
     font-size: 130%;
 }
 
-.shopping-name-search {
+.shopping-name-search,
+.panel-name-div {
     width: 50%;
     display: flex;
     gap: 7%;
 }
 
-.checkout-div {
+.checkout-div,
+.home-div {
     margin-right: 45%;
     white-space: nowrap;
+}
+
+.home-link {
+    word-spacing: 3px;
 }
