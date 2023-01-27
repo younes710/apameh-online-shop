@@ -9,7 +9,7 @@ const Login = () => {
             <p className="text-center text-xl font-bold">ورود به پنل مدیریت فروشگاه آپامه</p>
             <div className="mt-12">
                 <div className="flex items-center gap-3">
-                    <img src={person} />
+                    <img src={person} alt={"user icon"} />
                     <label className="font-semibold">نام کاربری :</label>
                 </div>
                 <input
@@ -20,7 +20,7 @@ const Login = () => {
             </div>
             <div className="mt-8">
                 <div className="flex items-center gap-3">
-                    <img src={kewPass} />
+                    <img src={kewPass} alt={"password icon"} />
                     <label className="font-semibold">رمز عبور :</label>
                 </div>
                 <input

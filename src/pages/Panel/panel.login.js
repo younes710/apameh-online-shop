@@ -1,8 +1,9 @@
 import React from "react";
+import Login from "../../components/Login/Login";
 
 const PanelLogin = () => {
     return (
-        <div>hello</div>
+        <Login />
     );
 };
 
